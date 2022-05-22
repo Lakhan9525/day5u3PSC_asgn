@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar{
+            display: flex;
+            gap: 200px;
+            border: 1px solid black;
+            height: 30px;
+            border-radius: 10px;
+            justify-content: space-evenly;
+            background-color: aqua;
+
+        
+        }
+        #navbar>div{
+            
+        }
+
+        #product_form{
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+        <div id="navbar">
+
+            <div>
+                <a href="product.html">product_form++</a>
+            </div>
+            <div><a href="index.html">home page</a></div>
+        </div>
+        
+    </div>
+    <form onsubmit="products(event)" id="product_form">
+        <input type="text" id="name" placeholder="entername"/><br><br>
+        <input type="number" id="batch" placeholder="enterbatch"/><br><br>
+        <input type="number" id="studentid" placeholder="enterid"/><br><br>
+        <input type="number" id="unit" placeholder="enterunit"/><br><br>
+        <input type="src" id="image" placeholder="enteremage"/><br><br>
+        <input type="submit" id="submit"/>
+
+
+    </form>
+</body>
+</html>
+<script src="scripts/index.js"></script>
